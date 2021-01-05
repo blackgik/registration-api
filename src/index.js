@@ -6,7 +6,7 @@ const UserRouter = require('./routes/userRouter')
 const app = express();
 
 // creating the server port
-const port = process.env.PORT || 5000
+const port = process.env.PORT
 
 // serving the expressing
 app.use(express.json())
